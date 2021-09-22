@@ -5,14 +5,12 @@ def comparelists(comparelist1,comparelist2):
     for i in range(len(comparelist1)):
             if comparelist1[i] in comparelist2:
                 hits=hits+1
-    print(hits)
 
 def randlist():
     randomlist=[]
     for i in range(0,6):
         temprandom = int(random.randint(1,49))
         randomlist.append(temprandom)
-    print(randomlist)
     return randomlist
 
 def inplist():
@@ -20,7 +18,6 @@ def inplist():
     for i in range(len(randomlist)):
         tempinput = int(input())
         inputlist.append(tempinput)
-    print(inputlist)
     return inputlist
 
 def checklist(list,):
@@ -30,7 +27,6 @@ def checklist(list,):
             if  list[i]==list[j]:
                 equal=equal+1
     equal=equal-len(list)
-    print(equal)
     if  equal>0:
         inplist()
 
