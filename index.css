@@ -1,7 +1,11 @@
 .one {
-    width: 20vw;
+    width: 48.6%;
 }
 
 .two {
-    width: 40.8vw;
+    width: 100%;
+}
+form {
+    width: 50vw;
+    margin-left: 24vw;
 }
