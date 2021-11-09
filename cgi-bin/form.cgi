@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 #Author: Github organization/team 1ems2005/school/2INF2/FakeLotto
 #Version: DEV
@@ -11,13 +11,13 @@ inputlist = cgi.FieldStorage()
 s=[]
 
 
-if inputlist["user"]:
-    user = inputlist["user"].value()
+if inputlist["username"]:
+    user = inputlist["username"].value
 
 print("content-type: text/html")
 print()
 print("<!DOCTYPE html><html>")
-print("<head><meta charset='utf-8'</head>")
+print("<head><meta charset='utf-8'></head>")
 print("<body>")
 
 print("<p>You are logged in as", user, "</p>")
