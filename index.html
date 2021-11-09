@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Fake Lotto 6 aus 49</title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
 	</head>
 	<body>
 		<div style="background-color:#dbdbdb;width:100vw;margin-top:1vh;margin-bottom:1vh;height:3vh;font-size:2vh;">
@@ -17,15 +18,17 @@
 			<p>Bei Lotto6aus49 hast DU die Möglichkeit ganz einfach reich zu werden! Alles was du machen musst ist 6 aus 49 Zahlen auszuwählen und <i>vielleicht</i> einen Betrag in Millionenhöhe zu erzielen!!!</p>
 			<div id="form" style="height:auto;width:60vw;">
 				<form action="/cgi-bin/form.cgi">
-					<input type="text" name="username" placeholder="Username"></input>
-					<input type="number" name="z1" placeholder="Zahl 1"></input>
-					<input type="number" name="z2" placeholder="Zahl 2"></input>
-					<input type="number" name="z3" placeholder="Zahl 3"></input>
-					<input type="number" name="z4" placeholder="Zahl 4"></input>
-					<input type="number" name="z5" placeholder="Zahl 5"></input>
-					<input type="number" name="z6" placeholder="Zahl 6"></input>
-					
-					<input type="submit" value="Absenden"></input>
+                    <br>
+					<input class="one" type="number" name="z1" placeholder="Zahl 1"></input>
+					<input class="one" type="number" name="z2" placeholder="Zahl 2"></input><br>
+					<input class="one" type="number" name="z3" placeholder="Zahl 3"></input>
+					<input class="one" type="number" name="z4" placeholder="Zahl 4"></input><br>
+					<input class="one" type="number" name="z5" placeholder="Zahl 5"></input>
+					<input class="one" class="one" type="number" name="z6" placeholder="Zahl 6"></input><br><br>
+                    <input class="one" type="text" placeholder="Name">
+                    <input class="one" type="text" placeholder="Nachname"><br>
+                    <input class="two" type="email" name="email" placeholder="Email Adresse"></input><br>
+					<input class="two" type="submit" value="Absenden"></input>
 				</form>
 			</div>
 		</div>
